@@ -18,7 +18,7 @@
     <!-- HERO SECTION -->
     <header>
         <h1>Hi, I'm Mehmood 👋</h1>
-        <p>I'm a passionate web developer from [City].</p>
+        <p>I'm a passionate web developer from Banglore.</p>
         <a href="#contact">Hire Me</a>
     </header>
  
@@ -31,15 +31,41 @@
     </section>
  
     <!-- SKILLS SECTION -->
-    <section id="skills">
-        <h2>My Skills</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-        </ul>
-    </section>
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Skill</th>
+            <th>Level</th>
+            <th>Experience</th>
+        </tr>
+
+        <tr>
+            <td>HTML5</td>
+            <td>Beginner</td>
+            <td>1 Months</td>
+        </tr>
+
+        <tr>
+            <td>CSS3</td>
+            <td>Beginner</td>
+            <td>1 Months</td>
+        </tr>
+
+        <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+            <td>1 Months</td>
+        </tr>
+
+        <tr>
+            <td>React</td>
+            <td>Beginner</td>
+            <td>1 Months</td>
+        </tr>
+    </table>
+</section>
  
     <!-- PROJECTS SECTION -->
     <section id="projects">
@@ -53,9 +79,36 @@
  
     <!-- CONTACT SECTION -->
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="renegadexiao1@gmail.com">you@email.com</a></p>
-    </section>
+    <h2>Contact Me</h2>
+    <p>Have a project in mind? Let's talk!</p>
+ 
+    <form action="#" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name" required>
+ 
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+        <label for="Phone ">Your Phone Number</label>
+        <input type="tel" id="Phone " name="Phone "
+               placeholder="Enter your Phone Number" required>
+               <label for="subject">Subject</label>
+        <select id="subject" name="subject">
+            <option value="">-- Select a topic --</option>
+            <option value="hire">I want to hire you</option>
+            <option value="collab">I want to collaborate</option>
+            <option value="other">Other</option>
+        </select>
+ 
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"
+                  placeholder="Tell me about your project..." required></textarea>
+ 
+        <button type="submit">Send Message 🚀</button>
+    </form>
+</section>
+ 
  
     <!-- FOOTER -->
     <footer>
